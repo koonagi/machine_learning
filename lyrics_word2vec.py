@@ -74,7 +74,7 @@ model = word2vec.Word2Vec(corpus,
                          )
 
 # 学習した言語数
-len(model.wv.vocab)
+len(model.wv.key_to_index)
 
 
 """
